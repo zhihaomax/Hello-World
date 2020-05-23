@@ -104,13 +104,3 @@ ggplot(data = mpg, mapping = aes(x = cty, y = hwy)) +
   geom_abline(intercept = 0, slope=1.5) +
   geom_hline(yintercept=20)+
   coord_fixed()
-
-### Wrap up: Template
-ggplot(data = <DATA>) + 
-  <GEOM_FUNCTION>(
-    mapping = aes(<MAPPINGS>),
-    stat = <STAT>,
-    position = <POSITION>
-  ) +
-  <COORDINATE_FUNCTION> +
-  <FACET_FUNCTION>
