@@ -4,6 +4,9 @@ library(tidyverse)
 ?mpg
 mpg<-data.frame(mpg)
 
+##
+a <- c("kish", "ssjsd", "sdsdsd")
+
 ## Basic Graph (Note that "+" must be placed at the end)
 ggplot(data = mpg) + 
   geom_point(mapping = aes(x = displ, y = hwy))
