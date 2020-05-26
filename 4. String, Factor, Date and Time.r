@@ -1,10 +1,5 @@
 library(tidyverse)
 
-### 1. String Basics
-## Create string vector
-string1 <- "This is a string"
-string2 <- 'If I want to include a "quote" inside a string, I use single quotes'
-
 # Note: To include "\" in a string variable, always use "\\", since "\" means escape a point
 # Also to see the content of a string vector, use writeLines()
 x <- c("\"", "\\")
